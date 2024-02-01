@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #8dd1fa;
+  --secondary-color: #ffe7ee;
+  --tertiery-color: #c2b9fc;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
   background-color: rgb(247, 247, 247);
   margin: 60px auto;
@@ -37,4 +44,35 @@ h3 {
 
 .about-paragraph p {
   margin: 10px;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(163, 163, 163);
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.email-link:hover {
+  color: var(--tertiery-color);
+  text-decoration: underline;
 }
