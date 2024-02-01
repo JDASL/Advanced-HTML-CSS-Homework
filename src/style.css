@@ -24,3 +24,17 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.about-paragraph {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraph p {
+  margin: 10px;
+}
