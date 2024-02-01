@@ -76,3 +76,27 @@ a:visited {
   color: var(--tertiery-color);
   text-decoration: underline;
 }
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px 0;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: --var(--secondary-color);
+}
+
+.contact-link:hover {
+  background: var(--tertiery-color);
+  color: black;
+}
